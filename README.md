@@ -68,5 +68,5 @@ Este arquivo contém as dependências do projeto, incluindo Flask, Flask-SQLAlch
 ### Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu_usuario/flask-user-authentication.git
+git clone https://github.com/alielsonfp/sample-flask-auth.git
 ```
