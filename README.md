@@ -80,3 +80,23 @@ Este arquivo contém as dependências do projeto, incluindo Flask, Flask-SQLAlch
 ```bash
 git clone https://github.com/alielsonfp/sample-flask-auth.git
 ```
+
+## Configurando o Ambiente
+
+1. Execute o Docker Compose para iniciar o banco de dados MySQL:
+```bash
+docker-compose up -d
+```
+
+2. Instale as dependências do Python:
+```bash
+pip install -r requirements.txt
+```
+
+3. Execute a aplicação Flask:
+```bash
+python app.py
+```
+
+Agora a API estará disponível em http://localhost:5000.
+
