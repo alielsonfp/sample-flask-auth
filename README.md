@@ -23,17 +23,17 @@ Este projeto pode ser utilizado como um exemplo de aplicação Flask para gerenc
 - Deleção de contas de usuários por administradores.
 
 ## Requisitos Funcionais
-- [x] O usuário deve poder se cadastrar na aplicação.
-- [x] O usuário deve poder fazer login na aplicação.
-- [x] O usuário deve poder fazer logout na aplicação.
-- [x] O usuário deve poder visualizar suas próprias informações de usuário.
-- [x] O usuário deve poder atualizar sua própria senha de usuário.
-- [x] O usuário pode visualizar informações de outros usuários.
-- [x] Apenas usuários com permissão de administrador podem deletar contas de outros usuários.
+- [✔] O usuário deve poder se cadastrar na aplicação.
+- [✔] O usuário deve poder fazer login na aplicação.
+- [✔] O usuário deve poder fazer logout na aplicação.
+- [✔] O usuário deve poder visualizar suas próprias informações de usuário.
+- [✔] O usuário deve poder atualizar sua própria senha de usuário.
+- [✔] O usuário pode visualizar informações de outros usuários.
+- [✔] Apenas usuários com permissão de administrador podem deletar contas de outros usuários.
 
 ## Requisitos Não-Funcionais
-- [x] A aplicação deve responder em um tempo razoável para todas as operações CRUD.
-- [x] A aplicação deve garantir a segurança das senhas dos usuários utilizando hashing com bcrypt.
+- [✔] A aplicação deve responder em um tempo razoável para todas as operações CRUD.
+- [✔] A aplicação deve garantir a segurança das senhas dos usuários utilizando hashing com bcrypt.
 
 ## Arquivos do Projeto
 
