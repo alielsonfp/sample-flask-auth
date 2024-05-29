@@ -12,7 +12,7 @@ O objetivo deste projeto é criar uma API para autenticação de usuários, perm
 - Login de usuários.
 - Logout de usuários.
 - Visualizar informações de usuários.
-- Atualizar informações de usuários.
+- Atualizar a própria senha de usuários.
 - Deletar usuários (apenas usuários com permissão de administrador podem deletar outros usuários).
 
 ## Requisitos funcionais
@@ -21,13 +21,12 @@ O objetivo deste projeto é criar uma API para autenticação de usuários, perm
 - [✔] O usuário deve poder fazer login na aplicação.
 - [✔] O usuário deve poder fazer logout na aplicação.
 - [✔] O usuário deve poder visualizar suas próprias informações de usuário.
-- [✔] O usuário deve poder atualizar suas próprias informações de usuário.
+- [✔] O usuário deve poder atualizar sua própria senha.
 - [✔] O usuário deve poder deletar sua própria conta de usuário.
 - [✔] Apenas usuários com permissão de administrador podem deletar outros usuários.
 
 ## Requisitos não-funcionais
 
-- [✔] A aplicação deve responder em um tempo razoável para todas as operações CRUD.
 - [✔] A aplicação deve garantir a segurança das senhas dos usuários utilizando hashing com bcrypt.
 
 ## Arquivos do Projeto
@@ -59,3 +58,9 @@ Este arquivo contém as dependências do projeto, incluindo Flask, Flask-SQLAlch
 - Python 3.x
 - Docker
 - Docker Compose
+
+### Clonando o Repositório
+
+```bash
+git clone https://github.com/seu_usuario/flask-user-authentication.git
+```
